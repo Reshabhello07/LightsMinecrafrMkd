@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "ledsync",
+  "version": "${version}",
+  "name": "LED Sync",
+  "description": "Sends health, dimension and time to the LED Studio app on the same phone.",
+  "environment": "client",
+  "entrypoints": {
+    "client": [ "com.ledsync.LedSyncMod" ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
